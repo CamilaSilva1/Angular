@@ -11,3 +11,17 @@
 a {
     color: brown;
 }
+
+h2{
+    color: rgb(230, 31, 64);
+}
+
+.class{
+    border-bottom: 1px solid red;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+body{
+    padding-bottom: 500px;
+}
