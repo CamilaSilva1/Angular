@@ -7,6 +7,9 @@ import { SecondComponentComponent } from './components/second-component/second-c
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { DiretivasComponent } from './components/diretivas/diretivas.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
+import { EventsComponent } from './components/events/events.component';
+import { EmitterComponent } from './components/emitter/emitter.component';
+import { ChangeNumberComponent } from './components/change-number/change-number.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
     SecondComponentComponent,
     ParentDataComponent,
     DiretivasComponent,
-    IfRenderComponent
+    IfRenderComponent,
+    EventsComponent,
+    EmitterComponent,
+    ChangeNumberComponent
   ],
   imports: [
     BrowserModule
