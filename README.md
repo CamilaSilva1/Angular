@@ -1,2 +1,2 @@
 # Angular
-Projetos criados utilizando Angular 
+Projetos desenvolvidos utilizando Angular 
