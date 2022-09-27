@@ -1,0 +1,69 @@
+<!-- Criado por Camila Silva -->
+<!-- Desde 26/09/2022 -->
+<!-- Este componente é responsável pelo conteudo em texto da aplicação -->
+
+<div id="container">
+    <header>
+        <div class="header-menu">
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#" [ngStyle]="{'text-decoration':'underline'}">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <section class="first-section">
+
+                <h1>Praticando Angular</h1>
+                <h2 [ngStyle]="{'text-decoration': 'underline'}">Desenvolvido por {{desenvolvedorNome}}</h2>
+
+            </section>
+
+            <section class="second-section">
+
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi 
+                   eius harum placeat fuga quaerat. Ducimus, recusandae quod molestias in
+                   laborum neque vel modi corrupti nobis error saepe qui officiis? Cupiditate!
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi 
+                   eius harum placeat fuga quaerat. Ducimus, recusandae quod molestias in
+                   laborum neque vel modi corrupti nobis error saepe qui officiis? Cditate!
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi 
+                   eius harum placeat fuga quaerat. Ducimus, recusandae quod molestias in
+                   laborum neque vel modi corrupti nobis error saepe qui officiis? Cupiditate!
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi 
+                   eius harum placeat fuga quaerat. Ducimus, recusandae quod molestias in
+                   laborum neque vel modi corrupti nobis error saepe qui officiis? Cditate!</p>
+
+            </section>
+
+            <section class="button-section">
+
+                <div class="btn-info">
+
+                    <app-button></app-button>
+
+                </div>
+
+                <div class="btn-id">
+
+                    <app-get-id></app-get-id>
+
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+
+            <p>Projeto em desenvolvimento</p>
+            <p><fa-icon [icon]="iconGit"></fa-icon>Instagram</p>
+            <p><fa-icon [icon]="iconInstagram"></fa-icon>GitHub</p>
+            
+        </div>
+    </footer>
+</div>

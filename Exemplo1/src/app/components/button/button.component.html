@@ -1,0 +1,38 @@
+<!-- Criado por Camila Silva -->
+<!-- Desde 27/09/2022 -->
+
+<div id="container">
+
+    <div class="buttons">
+
+            <div class="info-basic">
+            
+                <button (click)="showInfo()">Mostrar informações básicas</button>
+            
+                <div *ngIf="showInfoBool" class="info">
+            
+                    <p>Nome: {{infoBasics.name}}</p>
+                    <p>Idade: {{infoBasics.age}}</p>
+                    <p>Cor da pele: {{infoBasics.colorSkin}}</p>
+            
+                </div>
+            
+            </div>
+            
+            <div class="info-contact">
+            
+                <button (click)="showContact()">Mostrar informações de contato</button>
+            
+                <div *ngIf="showContactBool" class="contact">
+            
+                    <p>Cel: {{infoContact.cel}}</p>
+                    <p>Cep: {{infoContact.cep}}</p>
+                    <p>Número: {{infoContact.number}}</p>
+            
+                </div>
+            
+            </div>
+
+    </div>
+
+</div>
